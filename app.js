@@ -14,6 +14,10 @@ const app = http.createServer(function (request, response) {
     response.end(data);
   }
 });
+<<<<<<< HEAD
 app.listen(3000, function () {
+=======
+app.listen(4000, function () {
+>>>>>>> main
   console.log("Server is running on http://localhost:3000");
 });
